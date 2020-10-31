@@ -1,0 +1,55 @@
+
+#row1 div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rebeccapurple;
+    float: left;
+}
+#row1 {
+    overflow: hidden;
+    clear: both;
+}
+
+#row2 div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rebeccapurple;
+    float: left;
+}
+#row2 {
+    overflow: hidden;
+    clear: both;
+}
+
+#row3 div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid rebeccapurple;
+    float: left;
+}
+#row3 {
+    overflow: hidden;
+    clear: both;
+}
+
+body{
+    background-color: cornsilk;
+    width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.board{
+    width: 600px;
+    height: 600px;
+    padding: 25px;
+}
+
+span{
+    font-size: 60px;
+    padding: 30px;
+}
+
+#h2{
+    text-align: left;
+}
