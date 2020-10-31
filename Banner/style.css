@@ -1,0 +1,56 @@
+.layout{
+    height: auto;
+    width: 650px;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header'
+      'one two'
+      'three three'
+      'four four'
+      'five six'
+      'seven seven'
+      'eight eight'
+      'nine ten';
+
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    /*background-color: rgba(163, 35, 35, 0.8);*/
+     /* text-align: center;  */
+     padding: 20px 0; 
+    font-size: 30px;
+  }
+.item0 { grid-area: header;
+         background-color:black;
+         color: red;
+         text-align: center;
+       }
+.item1 { grid-area: one;
+         background-color: goldenrod;
+        color: white;
+    text-align: center; }
+.item2 { grid-area: two; 
+         background-color: blue;
+        color: white;
+        text-align: center; }
+.item3 { grid-area: three; 
+    background-color: brown;
+    color: white;
+    text-align: left;}
+.item4 { grid-area: four; background-color: blue;color: white; text-align: center; }
+.item5 { grid-area: five; background-color: brown; color: white;text-align: center;}
+.item6 { grid-area: six; background-color: gold; color: white;text-align: center;}
+.item7 { grid-area: seven; background-color: blue; color: white;text-align: left;}
+.item8 { grid-area: eight; background-color: gold; color: white;}
+.item9 { grid-area: nine; background-color: blue; color: white;}
+.item10 { grid-area: ten; background-color: brown; color: white;}
